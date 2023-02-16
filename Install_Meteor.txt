@@ -10,3 +10,10 @@ yum install make gcc-c++ ruby
 cd meteor-pipeline/src/
 make
 gem install inifile
+
+
+
+
+
+sudo echo "alias 'MeteorImportFastq.rb'='~/Meteor/meteor-master/data_preparation_tools/MeteorImportFastq.rb'" >> ~/.bashrc
+sudo echo "alias 'MeteorReferenceBuilder.rb'='~/Meteor/meteor-master/data_preparation_tools/MeteorReferenceBuilder.rb'" >> ~/.bashrc
