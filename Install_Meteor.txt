@@ -1,0 +1,12 @@
+#Ubuntu
+sudo apt-get install make g++ ruby
+cd meteor-pipeline/src/
+make
+gem install inifile
+
+
+#Centos
+yum install make gcc-c++ ruby
+cd meteor-pipeline/src/
+make
+gem install inifile
