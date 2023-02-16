@@ -15,5 +15,6 @@ gem install inifile
 
 
 sudo cp build/meteor-counter build/meteor-profiler ../meteor.rb /usr/local/bin
-sudo echo "alias 'MeteorImportFastq.rb'='~/Meteor/meteor-master/data_preparation_tools/MeteorImportFastq.rb'" >> ~/.bashrc
-sudo echo "alias 'MeteorReferenceBuilder.rb'='~/Meteor/meteor-master/data_preparation_tools/MeteorReferenceBuilder.rb'" >> ~/.bashrc
+
+echo "export TOOLS='/media/junwoojo/a5640f24-e33b-4688-b37f-1abbd69bdcd0/Meteor/meteor-master/data_preparation_tools'" >> ~/.bashrc
+source ~/.bashrc
