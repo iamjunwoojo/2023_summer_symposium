@@ -14,4 +14,4 @@ meteor-profiler -p /media/user/10T/Project_Darkmatter/Darkmatter_esophagus_blood
 -w ../workflow/Darkmatter.ini
 -f /media/user/10T/Project_Darkmatter/Darkmatter_esophagus_blood/profiles/
 -t smart_shared_reads 
--o head_neck /media/user/10T/Project_Darkmatter/Darkmatter_esophagus_blood/mapping/TCGA-*/*profile/census.dat
+-o head_neck /media/user/10T/Project_Darkmatter/Darkmatter_esophagus_blood/mapping/*TCGA*/*profile/census.dat
