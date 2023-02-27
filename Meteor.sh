@@ -10,4 +10,8 @@ for i in $(ls|grep TCGA);do meteor.rb -w ../../workflow/Darkmatter.ini  -p /home
 
 
 #profiler
-meteor-profiler -p /media/junwoojo/a5640f24-e33b-4688-b37f-1abbd69bdcd0/Project_Darkmatter/Darkmatter_head_neck_blood/ -w ../workflow/Darkmatter.ini  -f /media/junwoojo/a5640f24-e33b-4688-b37f-1abbd69bdcd0/Project_Darkmatter/Darkmatter_head_neck_blood/profiles/ -t smart_shared_reads -o head_neck /media/junwoojo/a5640f24-e33b-4688-b37f-1abbd69bdcd0/Project_Darkmatter/Darkmatter_head_neck_blood/mapping/TCGA-*/*profile/census.dat
+meteor-profiler -p /media/user/10T/Project_Darkmatter/Darkmatter_esophagus_blood/
+-w ../workflow/Darkmatter.ini
+-f /media/user/10T/Project_Darkmatter/Darkmatter_esophagus_blood/profiles/
+-t smart_shared_reads 
+-o head_neck /media/user/10T/Project_Darkmatter/Darkmatter_esophagus_blood/mapping/TCGA-*/*profile/census.dat
